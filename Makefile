@@ -6,6 +6,7 @@ format:
 	black *.py
 
 lint: 
+	pip install --upgrade pylint astroid 
 	pylint --disable=R,C *.py
 
 test:
