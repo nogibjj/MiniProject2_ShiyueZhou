@@ -46,6 +46,7 @@ def main():
     )
     print("\nVisualization:\n")
     plt.show()
+    plt.savefig("graph.png")
 
 
 if __name__ == "__main__":
