@@ -5,6 +5,9 @@ pytest==7.4.0
 pytest-cov==4.0.0
 pylint==2.15.3
 boto3==1.24.87
+matplotlib
+numpy
+pandas
 
 
 #web
